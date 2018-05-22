@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(inte);
     }
     public void agente(View v){
-        Intent inte3 = new Intent(this, Agente.class);
+        Intent inte3 = new Intent(this, LoginAgente.class);
         startActivity(inte3);
     }
 
